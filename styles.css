@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;*/
+    background-color: rgb(152, 159, 159);
+}
+#main_div{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    /*color: #fff;
+    background-color: rgb(176, 144, 144);*/
+}
+h1{
+    background-color: rgb(160, 154, 71); ;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    text-align: center;
+    padding: 10px;
+}
+#cat{
+    margin: 0 auto;
+    padding: 10px;
+}
+#main_carousal{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height:25%;
+    padding: 10px;
+    
+}
+#card_id{
+    display: flex;
+    padding: 10px;
+
+    justify-content: space-between;
+}
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+button{
+    background-color: rgb(152, 159, 159);
+}
